@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <title>Casa Villana</title>
+    <link rel="shortcut icon" href="../img/favicon.jfif" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/styleh-grid.css">
+</head>
+<body>
+    <!--inicia nav-->
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index-grid.html">
+            <img src="../img/casa-transp.png" alt="logo de casa villana">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/shop.html">Shop</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/destino.html">Destinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--end nav-->
+    <!--inicia carousel-->
+    
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/carousel/header.jpeg" class="d-block w-100" alt="imagen de veguitas en mendoza">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/carousel/laguna.jpg" class="d-block w-100" alt="imagen de la laguna del diamante">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/carousel/otono.jpg" class="d-block w-100" alt="imagen de una calle en otoño">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>      
+  <!--end carousel -->
+    
+    
+   <main class="bgGral">
+    <div>
+      <div class="conAl">
+        <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+        <input type="text" class="col-sm-12 col-md-6 col-lg-6" id="exampleFormControlInput1" placeholder="nombre y apellido">
+      </div>
+      <div class="conAl">
+        <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+        <input type="tel" class="col-sm-12 col-md-6 col-lg-6" id="exampleFormControlInput1" placeholder="261-1234567">
+      </div>
+      <div class="conAl">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="col-sm-12 col-md-6 col-lg-6" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="conAl">
+        <label for="exampleFormControlTextarea1" class="form-label alDes">Comentario</label>
+        <textarea class="col-sm-12 col-md-6 col-lg-6" id="exampleFormControlTextarea1" rows="6"></textarea>
+      </div>
+      <button type="submit" class="btn btnCont">Enviar</button>
+    </div>
+
+
+
+      <section >
+           <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.684692070305!2d-68.84933188529442!3d-32.906503877186324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e097284751f5d%3A0xbead8482450d09fb!2sRomairone%201730%2C%20Godoy%20Cruz%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1678322852590!5m2!1ses-419!2sar" width="100%" height="450" style="border:20;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               
+            </div>
+
+        </section>
+       
+    </main>
+    <!--end main-->
+
+    <footer class="bgGral">
+      <a href="https://es-la.facebook.com/" target="_blank">
+      <img src="../img/redes/facebook.png" alt="Seguinos en Facebook" class="imagen-red"></a>
+     <a href="https://instagram.com" target="_blank">
+      <img src="../img/redes/instagram.png" alt="Seguinos en Instagram" class="imagen-red"></a>
+          
+     <p class="borP">Terminos y condiciones</p>
+
+    </footer>
+    
+<!--js BS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
