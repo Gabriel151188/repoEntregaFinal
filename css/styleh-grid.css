@@ -38,26 +38,6 @@ header img{
     text-decoration: none;
 }
 
-/* .imgh{
-    grid-area: imgh;
-    background-color: green;
-} */
-
-/* .desc{
-    grid-area: desc;
-    background-color: grey;
-    
-} */
-
-/* .imgmza{
-    grid-area: imgmza;
-    background-color: red;
-} */
-
-/* .blog{
-    grid-area: blog;
-    background-color: deeppink;
-} */
 
 .foot{
     grid-area: foot;
@@ -87,8 +67,9 @@ nav{
 
 
 .img-mza{
-    width: 25%;
+    width: 100%;
     object-fit: cover;
+    margin-top: 10px;
 }
 
 .imagen-red{
@@ -122,6 +103,7 @@ color: deeppink;
 padding-top: 10px;
 }
 
+
 .alDes{
     display: flex;
     align-items: center;}
@@ -144,22 +126,7 @@ background-color: aquamarine;
 }
 
 
-/*@media (width > 1200px){
-    #grid{
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 130px 300px 100px 200px 100px;
-    grid-template-areas: 
-    "nav nav"
-    "imgh imgh"
-    "desc blog"
-    "imgmza blog"
-    "foot foot";
-    }
-    .foot{
-        justify-content: start;
-    }
-   
-}*/
+
 
 .map{
     display: flex;
@@ -175,12 +142,7 @@ background-color: aquamarine;
     border-radius: 50px;   
 } 
 
-/* .row{ 
-display: flex;
-flex-wrap: wrap;
-margin: 1em;
 
-} */
 #galeria{
 display: flex;
 flex-wrap: wrap;
