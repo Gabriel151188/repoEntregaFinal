@@ -132,6 +132,10 @@ p {
   justify-content: center;
 }
 
+.txtNon {
+  text-decoration: none;
+}
+
 .botonera {
   background-color: rgb(198, 149, 149);
   grid-area: nav;
