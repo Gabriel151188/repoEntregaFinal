@@ -1,0 +1,8 @@
+//mixin
+
+@mixin letra($color,$size,$style){
+    color: $color;
+    font-size: $size;
+    font-style: $style;
+}
+

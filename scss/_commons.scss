@@ -1,0 +1,161 @@
+h1,h2{
+    text-align: center;
+    color: $letterColor;
+    padding-top: 10px;
+    font-size: $textLg;
+    }
+
+    .bgGral{
+        background-color: $secondaryColor;
+    }
+    
+
+      
+    .center{
+        display: flex;
+        color: $letterColor;
+        text-align: center;
+        justify-content: center;
+        padding: $padSm;
+    }
+    .marNos{
+        display: flex;
+        color: black;
+        text-align: justify;
+        justify-content: center;
+        margin: 0em 2em;
+    }
+
+    
+
+    
+    .main{
+        section{
+                p{
+                   @include letra (black,2px,oblique);               
+                }
+        }
+    }
+    .margNos{
+        margin: 0px 3px opx 3px;
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;     
+        padding-top: 10px;
+        p{
+            margin-left: 30%;
+        }
+    }
+
+    .borP{
+        margin-left: 30%;
+     }
+
+    
+
+    .img-mza{
+        width: $wiLg;
+        object-fit: cover;
+        margin-top: 10px;
+    }
+    .imagen-red{
+        width: 5%;
+        height: 50px;
+    }
+
+    .map{
+        display: flex;
+        align-content: center;
+        padding: $padSm;
+    }
+
+    .galNos{
+        max-height: 800px;
+        padding: $padSm;
+        border-radius: 100px;   
+    } 
+
+    #galeria{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2em 2em 0em 2em;
+        }
+
+    .disp-flex{
+        display: flex;
+        justify-items: center;
+    }
+
+
+    .btn-gral{
+        display: flex;
+        color: $letterColor;
+        background-color: black;
+     }
+
+    .btnCont{
+        @extend .btn-gral;
+        margin: 0px 0px 20px 50px;
+        justify-items: center;
+        }
+
+    .conAl{
+            padding: $padMd;
+            font-style: oblique;
+            display: grid;
+            justify-items: center;
+        }
+    
+        p{
+            @include letra(black,1.3em,oblique)
+        }
+
+        //animaciones
+        .scale:hover{
+            transform: scaleY(1.3);
+            transition: all 1s;
+        }
+
+        .transform:hover{
+            transform: translate(15px,15px);
+        }
+
+
+        .scaleMd:hover{
+            transform: scale(1.1);
+            transition: all 2s;
+        }
+
+
+    
+
+
+    //no uso aparente
+    // .color{
+    //     color: whitesmoke;
+    // }
+
+    // .btnBg{
+    //     background-color: aquamarine;
+    //     }
+        
+    
+    // .bgCard{
+    //         background-color:black ;
+    //     }
+
+    // .foot{
+    //         grid-area: foot;
+    //         background-color: yellow;
+    //     }
+
+    // header img{
+    //         width: 100vw;
+    //         height: 100%;
+    //         object-fit: cover;
+    //        }
+    
+    

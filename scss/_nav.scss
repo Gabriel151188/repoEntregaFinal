@@ -1,0 +1,32 @@
+//nesting - anidacion
+
+.botonera{
+    background-color: $mainColor;
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $textSm;
+    
+    
+    
+    
+    a{
+        img{
+            width: 15%; 
+        }
+    }
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            margin-right: 10px;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+   }
+   

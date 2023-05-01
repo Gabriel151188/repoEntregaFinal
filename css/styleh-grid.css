@@ -3,19 +3,19 @@
     
 }
 
-nav img{
+/* nav img{
     width: 15%;
     margin: 6px;    
-}
+} */
 
-header img{
+/* header img{
     width: 100vw;
     height: 100%;
     object-fit: cover;
-   }
+   } */
 
 
-#grid{
+/* #grid{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 20vh 30vh 30vh 30vh 40vh 10vh;
@@ -25,86 +25,85 @@ header img{
     "desc"
     "imgmza"
     "blog"
-    "foot";
+    "foot"; */
 }
 
-.nav{
+/* .nav{
     grid-area: nav;
     background-color:rgb(198 149 149);
-}
+} */
 
-.nav ul li a{
+/* .nav ul li a{
     color: white;
     text-decoration: none;
-}
+} */
 
 
-.foot{
+/* .foot{
     grid-area: foot;
     background-color: yellow;
-}
+} */
 
 
-nav{
-    /*height: 20vh;*/
-   /* background-color: gray;*/
+/*nav{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+}*/
 
-    nav ul{
+    /* nav ul{
         display: flex;
-    }
+    } */
 
-        nav ul li{
+        /* nav ul li{
             list-style: none;
             margin-right: 10px;
-        }
+        } */
 
            
 
 
-.img-mza{
+/* .img-mza{
     width: 100%;
     object-fit: cover;
     margin-top: 10px;
-}
+} */
 
-.imagen-red{
+/* .imagen-red{
     width: 50px;
     height: 50px;
-}
+} */
 
-.center {
+/*.center {
     display: flex;
     text-align: center;
     justify-content: center;
     padding: 10px;
-}
+}*/
 
-footer{
+/* footer{
     display: flex;
     align-items: center;
     justify-content: flex-start;     
     padding-top: 10px;
-}
+} */
 
-.borP{
+/* .borP{
     margin-left: 30%;
 }
 .bgCard{
     background-color:black ;
-}
-h1,h2{
+} */
+/* h1,h2{
 text-align: center;
 color: deeppink;
 padding-top: 10px;
-}
+} */
 
 
-.alDes{
+/* .alDes{
     display: flex;
     align-items: center;}
 
@@ -123,40 +122,38 @@ background-color: aquamarine;
     padding: 20px;
     border: 10px;
     font-style: oblique;
-}
+}*/
 
 
 
 
-.map{
+/* .map{
     display: flex;
     align-content: center;
     padding: 10px;
-    
-    
-}
+} */
 
- .galNos{
+ /* .galNos{
     max-height: 800px;
     padding: 10px;
     border-radius: 50px;   
-} 
+}  */
 
 
-#galeria{
+/* #galeria{
 display: flex;
 flex-wrap: wrap;
 margin: 2em 2em 0em 2em;
-}
+} */
 
-main section p{
+/* main section p{
     margin: 1em 3em 1em 3em;
     text-align: justify;
-}
-.btnCont{
+} */
+/* .btnCont{
     display: flex;
     margin-left: 20px;
     background-color: black;
     color: deeppink;
     margin: 0px 0px 20px 50px;
-}
+} */

@@ -1,0 +1,148 @@
+h1, h2 {
+  text-align: center;
+  color: deeppink;
+  padding-top: 10px;
+  font-size: 4em;
+}
+
+.bgGral {
+  background-color: rgb(219, 189, 189);
+}
+
+.center {
+  display: flex;
+  color: deeppink;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.marNos {
+  display: flex;
+  color: black;
+  text-align: justify;
+  justify-content: center;
+  margin: 0em 2em;
+}
+
+.main section p {
+  color: black;
+  font-size: 2px;
+  font-style: oblique;
+}
+
+.margNos {
+  margin: 0px 3px opx 3px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+.footer p {
+  margin-left: 30%;
+}
+
+.borP {
+  margin-left: 30%;
+}
+
+.img-mza {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.imagen-red {
+  width: 5%;
+  height: 50px;
+}
+
+.map {
+  display: flex;
+  align-content: center;
+  padding: 10px;
+}
+
+.galNos {
+  max-height: 800px;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+#galeria {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em 2em 0em 2em;
+}
+
+.disp-flex {
+  display: flex;
+  justify-items: center;
+}
+
+.btn-gral, .btnCont {
+  display: flex;
+  color: deeppink;
+  background-color: black;
+}
+
+.btnCont {
+  margin: 0px 0px 20px 50px;
+  justify-items: center;
+}
+
+.conAl {
+  padding: 20px;
+  font-style: oblique;
+  display: grid;
+  justify-items: center;
+}
+
+p {
+  color: black;
+  font-size: 1.3em;
+  font-style: oblique;
+}
+
+.scale:hover {
+  transform: scaleY(1.3);
+  transition: all 1s;
+}
+
+.transform:hover {
+  transform: translate(15px, 15px);
+}
+
+.scaleMd:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+.botonera {
+  background-color: rgb(198, 149, 149);
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
+.botonera a img {
+  width: 15%;
+}
+.botonera ul {
+  display: flex;
+}
+.botonera ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+.botonera ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
