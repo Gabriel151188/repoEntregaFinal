@@ -121,6 +121,17 @@ p {
   transition: all 2s;
 }
 
+.btnFNP {
+  color: deeppink;
+  background-color: black;
+}
+
+.imgFNP {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
 .botonera {
   background-color: rgb(198, 149, 149);
   grid-area: nav;
