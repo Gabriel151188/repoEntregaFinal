@@ -1,3 +1,7 @@
+.oF{
+    overflow-x: hidden;
+}
+
 h1,h2{
     text-align: center;
     color: $letterColor;
@@ -7,8 +11,17 @@ h1,h2{
 
     .bgGral{
         background-color: $secondaryColor;
+        margin: -1px;
     }
     
+    .aux1{
+        display: flex;
+        align-items: center;
+    }
+
+    .aux2{
+        padding: 20px 15px;
+    }
 
       
     .center{
@@ -26,9 +39,7 @@ h1,h2{
         margin: 0em 2em;
     }
 
-    
-
-    
+        
     .main{
         section{
                 p{
@@ -44,26 +55,25 @@ h1,h2{
         display: flex;
         align-items: center;
         justify-content: flex-start;     
-        padding-top: 10px;
+        padding: 20px 15px;
         p{
             margin-left: 30%;
+            width: 100%;
         }
     }
 
     .borP{
-        margin-left: 30%;
-     }
-
-    
+        margin-left: 0%;
+    }
 
     .img-mza{
         width: $wiLg;
         object-fit: cover;
         margin-top: 10px;
     }
+
     .imagen-red{
         width: 5%;
-        height: 50px;
     }
 
     .map{
@@ -89,12 +99,11 @@ h1,h2{
         justify-items: center;
     }
 
-
     .btn-gral{
         display: flex;
         color: $letterColor;
         background-color: black;
-     }
+    }
 
     .btnCont{
         @extend .btn-gral;
@@ -102,41 +111,41 @@ h1,h2{
         justify-items: center;
         }
 
-    .conAl{
-            padding: $padMd;
-            font-style: oblique;
-            display: grid;
-            justify-items: center;
-        }
-    
-        p{
-            @include letra(black,1.3em,oblique)
-        }
+    .conAl {
+        padding: $padMd;
+        font-style: oblique;
+        display: grid;
+        justify-items: center;
+    }
 
-        //animaciones
-        .scale:hover{
-            transform: scaleY(1.3);
-            transition: all 1s;
-        }
+    p{
+        @include letra(black,1.3em,oblique)
+    }
 
-        .transform:hover{
-            transform: translate(15px,15px);
-        }
+    //animaciones
+    .scale:hover{
+        transform: scaleY(1.3);
+        transition: all 1s;
+    }
+
+    .transform:hover{
+        transform: translate(15px,15px);
+    }
 
 
-        .scaleMd:hover{
-            transform: scale(1.1);
-            transition: all 2s;
-        }
-        .btnFNP{
-            color: $letterColor;
-            background-color: black;
-        }
-        .imgFNP{
-            align-content: center;
-            display: flex;
-            justify-content: center;
-        }
-        .txtNon{
-            text-decoration: none;
-        }
+    .scaleMd:hover{
+        transform: scale(1.1);
+        transition: all 2s;
+    }
+    .btnFNP{
+        color: $letterColor;
+        background-color: black;
+    }
+    .imgFNP{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+    }
+    .txtNon{
+        text-decoration: none;
+    }  

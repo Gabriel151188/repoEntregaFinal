@@ -15,35 +15,35 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body >
+<body class="oF">
     <!--inicia nav-->
     <nav class="navbar botonera navbar-expand-lg nav">
         <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-            <img src="img/casa-transp.png" alt="logo de casa villana">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item scale">
-                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
-            </li> 
-            <li class="nav-item">
-                <a class="nav-link scale" href="pages/servicios.html">Servicios</a>
-            </li> 
-            <li class="nav-item">
-                <a class="nav-link scale" href="pages/shop.html">Shop</a>
-            </li> 
-            <li class="nav-item">
-                <a class="nav-link scale" href="pages/destino.html">Destinos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link scale" href="pages/contacto.html">Contacto</a>
-            </li>              
-            </ul>
-        </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/casa-transp.png" alt="logo de casa villana">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item scale">
+                        <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link scale" href="pages/servicios.html">Servicios</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link scale" href="pages/shop.html">Shop</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link scale" href="pages/destino.html">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scale" href="pages/contacto.html">Contacto</a>
+                    </li>              
+                </ul>
+            </div>
         </div>
     </nav>
     <!--end nav-->
@@ -78,8 +78,6 @@
       </div>      
     <!--end carousel -->
 
-
-
     <main class="bgGral">
         <div class="center">
             <section>
@@ -89,7 +87,6 @@
         </div>
     </main>
 <!--end main-->
-
 
     <div class="imgmza center bgGral">
         <section>
@@ -116,21 +113,28 @@
     <div class="blog center bgGral">
         <section>
             <h2>Opiniones de nuestros visitantes</h2>
-            <textarea name="texto" id="comentario" cols="60" rows="10"></textarea>
+            <form>
+                <textarea name="texto" id="comentario" class="col-12 col-md-6 col-lg-6" rows="12"></textarea>
+        </form>
         </section>
     </div>
 
-
-    
-
     <footer class="bgGral">
-        <a href="https://es-la.facebook.com/" target="_blank">
-        <img src="img/redes/facebook.png" alt="Seguinos en Facebook" class="imagen-red"></a>
-       <a href="https://instagram.com" target="_blank">
-        <img src="img/redes/instagram.png" alt="Seguinos en Instagram" class="imagen-red"></a>
-            
-       <p class="borP">Terminos y condiciones</p>
-  
+        <div class="aux1">
+            <div class="aux2">
+                <a href="https://es-la.facebook.com/" target="_blank">
+                    <img src="img/redes/facebook.png" alt="Seguinos en Facebook" class="imagen-red"></a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="img/redes/instagram.png" alt="Seguinos en Instagram" class="imagen-red"></a>
+            </div>
+            <div>
+                <a href="error404.html" class="txtNon">
+                <p class="borP">
+                    Terminos y condiciones</p>
+                </a>
+            </div>
+                    
+        </div>
   </footer>
     
 <!--js BS-->
